@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.dates {
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../Assets/Rectangle\ 1081.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.toggler {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.singleDate > ul li {
+    margin: 25px;
+}
+.upcomingRaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    background: #0B0B45;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.upcomingRaces > h2 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.twoButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: #0B0B45;
+    color: #FFFFFF;
+    border-right: 1px solid white;
+}
+
+.toggler > h2 {
+    font-size: 25px;
+}
+
+.intro {
+    width: 100%;
+    height: 41px;
+    background: #DEA572;
+    color: #0B0B45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.detailsPage {
+    background: #0B0B45;
+    color: white;
+}
+
+.detailsPage > h1 {
+    color: #EB5215;
+    font-size: 28px;
+}
+.span {
+    color: white;
+}
+.table {
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    font-weight: 700;
+}
+
+.tableData1 {
+  background: #CBE6F4;
+  text-align: center;
+}
+
+td {
+    background: white;
+}
+
+.tableData2 {
+    background: #F5E0E2;
+    text-align: center;
+}
+
+tbody > tr {
+    border: none;
+    border-color: none;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,24 @@
+.btn {
+    width: 97px;
+    height: 36px;
+    background: linear-gradient(275.76deg, #DFE258 44.33%, #BB9510 98.56%);
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+.twoButtons {
+height: 10vh;
+display: flex;
+justify-content: space-around;
+width: 85%;
+align-items: center;
+margin: 0 auto;
+
+}
+
+.buttons {
+    width: 100%;
+    background: #0B0B45;
+}

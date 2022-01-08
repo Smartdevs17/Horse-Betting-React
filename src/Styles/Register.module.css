@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.registerPage {
+    width: 100%;
+    min-height: 100vh;
+    background: #0B0B45;
+    
+}
+
+.registerPage > h2 {
+font-family: 'Open Sans', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 43px;
+letter-spacing: 0.04em;
+text-align: left;
+color: white;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 276.0442199707031px;
+    grid-gap: 20px;
+}
+
+.inputPersonal > input {
+ height: 29.18181800842285px;
+width: 124.33169555664062px;
+border-radius: 4px;
+border: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.inputPrivate > input {
+height: 29.024078369140625px;
+width: 276.0442199707031px;
+border-radius: 4px;
+}
+
+.checkBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.inputPrivate > h5, .inputPersonal > h5, .checkBox > h5 {
+    font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0.04em;
+text-align: left;
+color: white;
+}
+
+.span {
+    font-family: 'Roboto', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #107DDB;
+}
+
+.btn {
+height: 32.375px;
+width: 105px;
+border-radius: 4.437694549560547px;
+background: #107DDB;
+color: white;
+border: none;
+}
+
+.icon {
+    position: absolute;
+    right: 0px;
+}
